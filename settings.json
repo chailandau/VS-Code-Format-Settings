@@ -1,0 +1,25 @@
+{
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "git.enableSmartCommit": true,
+    // disable prettier for js
+    "javascript.format.enable": false,
+    // prettier tab width is 4 spaces
+    "prettier.tabWidth": 4,
+    // add a trailing semicolon
+    "prettier.semi": true,
+    // auto format
+    "editor.formatOnSave": true,
+    // turn off js auto format
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    // turn on js eslint auto format
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    },
+    "eslint.options": {
+        "configFile": "/Users/clique/Library/Application Support/Code/User/eslintrc.js",
+        // eslint rules
+    },
+}
